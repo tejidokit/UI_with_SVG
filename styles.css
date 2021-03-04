@@ -1,0 +1,43 @@
+body {
+    height: 100vh;
+    background: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family:fantasy;
+}
+
+.container {
+    text-align: center;
+    /* padding: 8em 0; */
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    background: cornflowerblue;
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+
+    font-size: 5em;
+    margin: 0;
+}
+
+p {
+    display: flex;
+
+    font-size: 1.3em;
+    margin: 0;
+}
+
+/* footer {
+    display: flex;
+    flex-direction: row;
+} */

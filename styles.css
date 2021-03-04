@@ -1,28 +1,40 @@
 body {
-    height: 100vh;
     background: white;
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    justify-content: center;
     font-family:fantasy;
 }
 
 .container {
-    text-align: center;
     /* padding: 8em 0; */
     padding: 0;
     height: 100vh;
     width: 100%;
+    /* min-height: 100%; */
 
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    /* flex-wrap: wrap; */
 
     background: cornflowerblue;
+    
+
+    
 }
 
-h1 {
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+
+
+
+
+
+/* h1 {
     display: flex;
     flex-direction: column;
 
@@ -35,7 +47,7 @@ p {
 
     font-size: 1.3em;
     margin: 0;
-}
+} */
 
 /* footer {
     display: flex;

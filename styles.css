@@ -30,21 +30,20 @@ body {
 
     object-fit: cover;
     width: 100%;
+    width: 100vw;
+    height: 100vh;
 }
     
-       
+
+ 
 
 
 h1 {
     position: absolute;
     display: flex;
     align-self: flex-start;
-
-    /* margin-top: 8em; */
-    /* margin: 0;
-    margin-top: 1em;
-    font-size: 5em; */
-    /* background-color: crimson; */
+    margin-top: 6em;
+    font-size: 3em;
     
 }
 
@@ -52,8 +51,8 @@ p {
     position: absolute;
     display: flex;
     justify-content: center;
-    
-    margin: 0;
+    font-size: 2em;
+    margin-top: 8em;
 
     /* margin-top: 2em; */
 
@@ -64,9 +63,9 @@ p {
 
 
 
-svg #cloud1 {
+/* svg #cloud1 {
     animation: cloud-anim 7s alternate-reverse infinite linear;
-}
+} */
 
 /* svg #cloud2 {
     animation: cloud-anim 10s alternate-reverse infinite linear;
@@ -80,7 +79,7 @@ img #cloud4 {
     animation: cloud-anim 14s alternate-reverse infinite linear;
 } */
 
-@keyframes cloud-anim {
+/* @keyframes cloud-anim {
     from {
         transform: translateX(0);
         /* transform: rotate(180deg); */
@@ -88,7 +87,7 @@ img #cloud4 {
     to {
         transform: translateX(200deg);
     }
-}
+} */
 
 
 
